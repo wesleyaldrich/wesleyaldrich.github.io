@@ -1,0 +1,43 @@
+:root {
+    --primary: hsl(287 60% 65%);
+    --primary-op: hsl(287 60% 65% / 0.1);
+    --primary-shadow: hsl(287 60% 65% / 0.5);
+    --gray: hsl(219 14% 71%);
+    --gray-op: hsl(219 14% 71% / 0.1);
+    --background: hsl(218 12% 18%);
+    --white: hsl(0 0% 100%);
+    --testing: rgb(33, 61, 61);
+}
+
+.hamburger-menu {
+    display: none;
+    position: relative;
+}
+
+.hamburger-icon {
+    font-size: 28px;
+    color: var(--primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 20vw;
+    height: 120px;
+    padding: 12px 8px;
+    border-bottom-left-radius: 24px;
+    background-color: var(--background);
+}
+
+.menu.open {
+    font-size: 2vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
