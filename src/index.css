@@ -693,6 +693,8 @@ h1 {
 
     .menu {
         height: 22vw;
+        top: 40px;
+        border-bottom-left-radius: 12px;
     }
 
     .page-content {
@@ -765,4 +767,8 @@ h1 {
     }
 }
 
-/* 420px */
+@media (max-width: 450px) {
+    /* .hamburger-icon {
+        font-size: 16px;
+    } */
+}
