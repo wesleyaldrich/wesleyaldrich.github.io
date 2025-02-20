@@ -794,7 +794,7 @@ h1 {
         gap: 2vh;
     }
 
-    #about-1 {
+    #about-0, #about-1 {
         flex-direction: column;
     }
 

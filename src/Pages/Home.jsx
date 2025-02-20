@@ -91,7 +91,7 @@ function Home(){
                 </div>
             </section>
 
-            <Element name="about-me" className="about-me container">
+            <Element name="about-me" id="about-0" className="about-me container">
                 <div className="about-me-details">
                     <h2 className="h2">about</h2>
                     <div className="about__text">
