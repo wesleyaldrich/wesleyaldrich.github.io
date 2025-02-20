@@ -1,4 +1,4 @@
-import pic_about_me_1 from "../assets/wesley_1.jpg"
+import pic_about_me_1 from "../assets/wesley_1.JPG"
 import pic_about_me_2 from "../assets/wesley_2.jpg"
 import pic_about_me_3 from "../assets/wesley_3.jpg"
 
@@ -23,7 +23,7 @@ function AboutMe(){
                                     For hobby, he loves song-writing and producing music. So whenever he's not studying for competitions, he use all of his free times to learn music production skills. Now, he has few songs released on Spotify, while most of his works are unreleased since he's not confident of his own voice, thus still looking for people to sing the songs he wrote.
                                 </p>
 
-                                <a href="/about-me" className="button">Read more -&gt;</a>
+                                <a target="_blank" href="https://github.com/wesleyaldrich" className="button">GitHub -&gt;</a>
                             </div>
                         </div>
                         <div className="about-me-img-container wesleyaldrich-info">
@@ -45,7 +45,7 @@ function AboutMe(){
                                     By the name of PD Seul, usually known as PD, he is a sound engineer, music producer, song-writer, and a rapper, mainly responsible for managing the mix and master for projects assigned to him.
                                 </p>
 
-                                <a href="/about-me" className="button">Read more -&gt;</a>
+                                <a target="_blank" href="https://www.instagram.com/pd.wesley/" className="button">Instagram -&gt;</a>
                             </div>
                         </div>
                     </div>
