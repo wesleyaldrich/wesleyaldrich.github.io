@@ -10,12 +10,10 @@ function Music() {
             src: '/audio/COSONG.mp3' },
         {   title: 'Empty Store',
             src: '/audio/EMPTY STORE.mp3' },
-        {   title: 'Evelyn',
-            src: '/audio/EVELYN.mp3' },
+        // {   title: 'Evelyn',
+        //     src: '/audio/EVELYN.mp3' },
         {   title: 'Flame',
             src: '/audio/FLAME.mp3' },
-        {   title: 'Heaven or Hills',
-            src: '/audio/HEAVEN OR HILLS.mp3' },
         {   title: 'Little Boy',
             src: '/audio/LITTLE BOY.mp3' },
         {   title: 'Sunny Side',
@@ -24,6 +22,8 @@ function Music() {
             src: '/audio/70 DREAM.mp3' },
         {   title: 'Inst: ANP',
             src: '/audio/ANP.mp3' },
+        {   title: 'Inst: Heaven or Hills',
+            src: '/audio/HEAVEN OR HILLS.mp3' },
         {   title: 'Inst: Lonely',
             src: '/audio/LONELY.mp3' },
         {   title: 'Inst: No Villain',
@@ -113,7 +113,7 @@ function Music() {
             <div className="container">
                 <div className="path">
                     <h1 className="h1 path__name">music</h1>
-                    <p className="path__description">All of my music works</p>
+                    <p className="path__description">Some of my music works that I would share.</p>
                 </div>
 
                 <div>
