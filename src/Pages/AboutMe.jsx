@@ -12,7 +12,7 @@ function AboutMe(){
                 </div>
 
                 <div className="about-me-contents">
-                    <div className="about-me">
+                    <div className="about-me" id="about-1">
                         <div className="about-me-details">
                             <h2 className="h2">wesleyaldrich</h2>
                             <div class="about__text">
@@ -31,17 +31,17 @@ function AboutMe(){
                         </div>
                     </div>
 
-                    <div className="about-me">
+                    <div className="about-me" id="about-2">
                         <div className="about-me-img-container producer-info">
                             <img className="about-me-img" src={ pic_about_me_2 }/>
                         </div>
                         <div className="about-me-details">
                             <h2 className="h2">producer</h2>
-                            <div class="about__text">
-                                <p class="about__description">
+                            <div className="about__text">
+                                <p className="about__description">
                                     He considers himself as an audiophile. Whenever he listens to music, he despise sounds that are 'poorly mixed'. He has been this way such that he takes music too seriously to the point that he feels happy listening to good music. As the result of this behavior, he is now a self-taught music producer, and is serious with this professional side job.
                                 </p>
-                                <p class="about__description">
+                                <p className="about__description">
                                     By the name of PD Seul, usually known as PD, he is a sound engineer, music producer, song-writer, and a rapper, mainly responsible for managing the mix and master for projects assigned to him.
                                 </p>
 
@@ -53,7 +53,7 @@ function AboutMe(){
                     <div className="about-me about-me-facts">
                         <div className="about-me-details">
                             <h2 className="h2">fun-facts</h2>
-                            <div class="about__text facts-container">
+                            <div className="about__text facts-container">
                                 <div className="fact">massive K-Pop fanboy</div>
                                 <div className="fact">watches streamers every day</div>
                                 <div className="fact">likes anything with Oreo</div>

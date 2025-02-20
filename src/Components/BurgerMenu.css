@@ -26,17 +26,18 @@
 .menu {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 70px;
     right: 0;
-    width: 20vw;
-    height: 120px;
+    width: 30vw;
+    height: 160px;
     padding: 12px 8px;
     border-bottom-left-radius: 24px;
     background-color: var(--background);
+    border: 0.5px solid var(--primary-op);
 }
 
 .menu.open {
-    font-size: 2vw;
+    /* font-size: 2.5vw; */
     flex-direction: column;
     display: flex;
     justify-content: space-between;
