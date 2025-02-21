@@ -18,6 +18,7 @@ function Home(){
                     <h1>Wesley is a <span>software engineer</span> and a <span>fullstack developer</span>.</h1>
                     <p>He brings people together with his big passion in teaching and explaining.</p>
                     <Link
+                        id="getinfo-btn"
                         to="about-me"
                         smooth={true}
                         easing="easeInOutSine"
