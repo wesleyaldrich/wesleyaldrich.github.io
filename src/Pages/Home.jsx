@@ -15,7 +15,7 @@ function Home(){
         <div className="page-content">
             <div className="overview container">
                 <div className="left">
-                    <h1>Wesley is a <span>software engineer</span> and a <span>fullstack developer</span>.</h1>
+                    <h1>Wesley is a <span>fullstack developer</span> and a <span>music producer</span>.</h1>
                     <p>He brings people together with his big passion in teaching and explaining.</p>
                     <Link
                         id="getinfo-btn"
@@ -87,7 +87,7 @@ function Home(){
                         <Skill
                             title="Others"
                             list={["Git", "GitHub", "Jetpack Compose", "Linux",
-                                "MySQL", "Tkinter",]}/>
+                                "MongoDB", "Tkinter",]}/>
                     </div>
                 </div>
             </section>

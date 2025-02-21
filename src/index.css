@@ -24,7 +24,7 @@ html {
     font-style: normal;
     color: var(--white);
     text-align: justify;
-    font-size: 1rem;
+    font-size: 18px;
     width: 100%;
 }
 
@@ -192,8 +192,8 @@ a {
 }
 
 .quote__text {
-    padding: 32px;
-    font-size: 24px;
+    padding: 20px;
+    font-size: 18px;
     font-weight: 500;
     background-color: var(--background);
 }
@@ -204,7 +204,7 @@ a {
     border: 1px solid var(--gray);
     padding: 12px;
     right: -1px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .projects__header {
@@ -310,7 +310,7 @@ ul {
     display: flex;
     margin: 24px 0;
     margin-bottom: 0;
-    height: 320px;
+    height: 400px;
     justify-content: space-between;
     gap: 24px;
 }
@@ -350,8 +350,8 @@ ul {
 
 #skills-img {
     height: 100%;
-    padding: 24px;
-    padding-left: 0;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
 .skill-img-container {
@@ -630,8 +630,8 @@ h1 {
     }
 
     .quote__text {
-        padding: 16px;
-        font-size: 14px;
+        padding: 12px;
+        font-size: 16px;
     }
 
     .quote::before, .quote::after {
@@ -640,14 +640,14 @@ h1 {
 
     .quote__author {
         padding: 8px;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
 /* 690px */
 @media (max-width: 690px) {
     .skills__content {
-        height: 440px;
+        height: 500px;
     }
 }
 
@@ -732,11 +732,12 @@ h1 {
 
     .quote__text {
         padding: 8px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .quote__author {
         padding: 6px;
+        font-size: 12px;
     }
 
     .button {
