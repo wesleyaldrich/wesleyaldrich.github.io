@@ -77,17 +77,17 @@ function Home(){
                         <Skill
                             title="Languages"
                             list={["C", "C++", "Java", "JavaScript",
-                                "Kotlin", "MySQL", "PHP", "Python"]}/>
+                                "Kotlin", "PHP", "Python", "SQL"]}/>
                         <Skill
                             title="Framework: Frontend"
-                            list={["Blade", "Bootstrap", "React.js"]}/>
+                            list={["Bootstrap", "Jetpack Compose", "React.js"]}/>
                         <Skill
                             title="Framework: Backend"
                             list={["Express.js", "Flask", "Laravel", "Spring Boot"]}/>
                         <Skill
                             title="Others"
-                            list={["Git", "GitHub", "Jetpack Compose", "Linux",
-                                "MongoDB", "Tkinter",]}/>
+                            list={["Git", "GitHub", "Linux",
+                                "MongoDB", "MySQL", "Tkinter",]}/>
                     </div>
                 </div>
             </section>
